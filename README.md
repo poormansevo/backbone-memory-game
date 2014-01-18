@@ -3,7 +3,7 @@ backbone-memory-game
 
 The memory card game implemented with BackboneJS.
 
-Demo available at http://memory.poormansevo.com
+Demo available at http://poormansevo.github.io/backbone-memory-game/
 
 
 This is a work in progress.
