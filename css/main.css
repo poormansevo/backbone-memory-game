@@ -1,0 +1,88 @@
+#main {
+    height: 800px;
+    background-color: #F0F0F0;
+}
+
+.board {
+    width: 400px;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.card {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    display: inline-block;
+}
+
+.card .front {
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    z-index: 900;
+    border-style: solid;
+    border-color: #000000;
+    moz-border-radius: 6px;
+    webkit-border-radius: 6px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #FF0000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.card.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.card .back {
+    position: absolute;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    z-index: 800;
+    border-style: solid;
+    border-color: #000000;
+    moz-border-radius: 6px;
+    webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.card.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
