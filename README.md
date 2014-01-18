@@ -5,17 +5,17 @@ The memory card game implemented with BackboneJS.
 
 Demo available at http://poormansevo.github.io/backbone-memory-game/
 
+<br />
 
 This is a work in progress.
 
 Feel free to take it and do your thing with it. Please give credit where credit is due if you use it somewhere else.
 
+---
 
+The MIT License (MIT)
 
-
->The MIT License (MIT)
->
->Copyright (c) [2014] [Steven Richardson]
+Copyright (c) [2014] [Steven Richardson]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
