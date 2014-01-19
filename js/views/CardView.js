@@ -28,7 +28,6 @@ MG.CardView = Backbone.View.extend({
 
     flipCard: function() {
         if(this.model.get("flipped")) {
-            console.log("flipCard() - Add flip class to card");
             $(this.el).addClass('flip');
         } else {
             $(this.el).removeClass('flip');

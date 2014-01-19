@@ -19,14 +19,12 @@ MG.GameBoardView = Backbone.View.extend({
             that.model.set("cardsClicked", that.model.get("cardsClicked") + 1);
             card.model.flip();
         }
-        console.log("cardsClicked: " + that.model.get("cardsClicked"));
         if(that.model.get("cardsClicked") == 2 && that.model.get("inprogress") == false) {
             that.model.set("inprogress", true);
             setTimeout(function() {
                 var flippedCards = that.model.get("cardSet").where({flipped: true, matched: false});
                 if(flippedCards[0].get("value")  == flippedCards[1].get("value")) {
                     setTimeout(function() {
-                        console.log("Got a match!");
                         flippedCards[0].set("matched", true);
                         flippedCards[1].set("matched", true);
                         that.model.set("cardsClicked", 0);
@@ -34,7 +32,6 @@ MG.GameBoardView = Backbone.View.extend({
                     }, 400);
                 } else {
                     setTimeout(function() {
-                        console.log("No match");
                         flippedCards[0].set("flipped", false);
                         flippedCards[1].set("flipped", false);
                         that.model.set("cardsClicked", 0);
