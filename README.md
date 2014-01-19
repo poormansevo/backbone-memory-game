@@ -7,12 +7,12 @@ Demo available at http://poormansevo.github.io/backbone-memory-game/
 
 <br />
 
-<h3> Building: </h3>
+<h4> Building: </h4>
 Build with a simple 'grunt' command at command line.
 
 <br />
 
-<h3> Notes: </h3>
+<h4> Notes: </h4>
 This is a work in progress.
 
 Feel free to take it and do your thing with it. Send a pull request if you find some issues. Please give credit where credit is due if you use it somewhere else.
