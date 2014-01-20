@@ -42,11 +42,6 @@ module.exports = function(grunt) {
             prod: {
                 files: [
 
-                    // Node modules
-                    { src: ['node_modules/**'], dest: 'dist/' },
-
-                    { src: ['images/'], dest: 'dist/images/' },
-
                     { expand: true, cwd: 'css/', src: ['**'], dest: 'dist/css/'}, // makes all src relative to cwd
                     { expand: true, cwd: 'images/', src: ['**'], dest: 'dist/images/'}, // makes all src relative to cwd
 
