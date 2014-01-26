@@ -19,6 +19,7 @@ Feel free to take it and do your thing with it. Send a pull request if you find 
 <br />
 <br />
 
+<h2>License</h2>
 ---
 
 The MIT License (MIT)
