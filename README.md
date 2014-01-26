@@ -9,6 +9,9 @@ Demo available at http://poormansevo.github.io/backbone-memory-game/
 
 <h4> Building: </h4>
 Build with a simple 'grunt' command at command line.
+```
+$ grunt
+```
 
 <br />
 
