@@ -5,8 +5,6 @@ The memory card game implemented with BackboneJS.
 
 Demo available at http://poormansevo.github.io/backbone-memory-game/
 
-<br />
-
 <h2> Building </h2>
 Build with a simple 'grunt' command at command line.
 ```
