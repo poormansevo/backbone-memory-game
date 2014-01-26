@@ -11,8 +11,6 @@ Build with a simple 'grunt' command at command line.
 $ grunt
 ```
 
-<br />
-
 <h2> Notes </h2>
 This is a work in progress.
 
