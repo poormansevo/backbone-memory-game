@@ -20,8 +20,6 @@ Feel free to take it and do your thing with it. Send a pull request if you find 
 <br />
 
 <h2>License</h2>
----
-
 The MIT License (MIT)
 
 Copyright (c) [2014] [Steven Richardson]
