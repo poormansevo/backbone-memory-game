@@ -3,6 +3,8 @@ backbone-memory-game
 
 The memory card game implemented with BackboneJS.
 
+I put this app together on a snowed in weekend. There are still many issues and possible improvements.
+
 Demo available at http://poormansevo.github.io/backbone-memory-game/
 
 <h2> Building </h2>
@@ -12,9 +14,8 @@ $ grunt
 ```
 
 <h2> Notes </h2>
-This is a work in progress.
 
-Feel free to take it and do your thing with it. Send a pull request if you find some issues. Please give credit where credit is due if you use it somewhere else.
+Feel free to take it and do your thing with it. Send a pull request if you want to help fix some issues. Please give credit where credit is due if you use it somewhere else.
 
 <br />
 <br />
