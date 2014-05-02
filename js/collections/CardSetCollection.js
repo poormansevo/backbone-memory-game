@@ -10,4 +10,8 @@ MG.CardSetCollection = Backbone.Collection.extend({
         this.reset(this.shuffle(), {silent: true});
     },
 
+    destroy: function() {
+        console.log("CardSetCollection.destroy()");
+    }
+
 });

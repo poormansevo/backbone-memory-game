@@ -45,6 +45,7 @@ MG.CardView = Backbone.View.extend({
     },
 
     destroy: function() {
+        console.log("CardView.destroy()");
         this.remove();
         this.unbind();
     }

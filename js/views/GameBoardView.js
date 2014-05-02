@@ -58,8 +58,18 @@ MG.GameBoardView = Backbone.View.extend({
     },
 
     destroy: function() {
+        console.log("GameBoardView.destroy()");
         // Stop listening for event on view
         MG.vent.off("cardFlippedEvent");
+
+        // Destroy all of the Cards
+        var cardModels = this.model.get("cardSet");
+        cardModels.each(function(cardModel) {
+            cardModel.destroy();
+        });
+        
+        // Destroy the GameModel
+        this.model.destroy();
         
         this.remove();
         this.unbind();

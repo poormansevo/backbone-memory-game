@@ -23,4 +23,14 @@ $(document).ready(function() {
     var gameBoardView = new MG.GameBoardView({model: gameModel});
     $('#appContent').html(gameBoardView.el);
 
+    $("#restart").click(function() {
+        console.log("restart game");
+        gameBoardView.destroy();
+
+        gameModel = new MG.GameModel({cardSet: cardSetCollection});             
+        gameBoardView = new MG.GameBoardView({model: gameModel});               
+        $('#appContent').html(gameBoardView.el);
+    });
+
 });
+
