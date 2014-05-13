@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 
                     // Copy over all the supporting Javascript libraries for the application
                     { src: ['js/jquery.min.js'], dest: 'dist/js/jquery.min.js', filter: 'isFile' },
-                    
+
                     { src: ['js/underscore.min.js'], dest: 'dist/js/underscore.min.js', filter: 'isFile' },
 
                     { src: ['js/backbone.min.js'], dest: 'dist/js/backbone.min.js', filter: 'isFile' }
