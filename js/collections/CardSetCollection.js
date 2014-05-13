@@ -11,7 +11,7 @@ MG.CardSetCollection = Backbone.Collection.extend({
     },
 
     destroy: function() {
-        console.log("CardSetCollection.destroy()");
+        //console.log("CardSetCollection.destroy()"); // TEMP
     }
 
 });

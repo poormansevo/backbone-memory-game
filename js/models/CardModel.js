@@ -16,9 +16,9 @@ MG.CardModel = Backbone.Model.extend({
         }
 
     },
-    
+
     destroy: function() {
-        console.log("CardModel.destroy()");
+        //console.log("CardModel.destroy()"); // TEMP
     }
 
 });

@@ -7,6 +7,6 @@ MG.GameModel = Backbone.Model.extend({
     },
 
     destroy: function() {
-        console.log("GameModel.destroy()");
+        //console.log("GameModel.destroy()"); // TEMP
     }
 });

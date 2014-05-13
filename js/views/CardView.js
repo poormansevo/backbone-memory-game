@@ -11,7 +11,7 @@ MG.CardView = Backbone.View.extend({
         this.model.on("change:matched", this.removeMatchedCards, this);
         this.render();
     },
-    
+
     cardFlipped: function(e) {
         e.preventDefault();
         if(this.model.get("flipped")) {
@@ -45,7 +45,7 @@ MG.CardView = Backbone.View.extend({
     },
 
     destroy: function() {
-        console.log("CardView.destroy()");
+        //console.log("CardView.destroy()"); // TEMP
         this.remove();
         this.unbind();
     }
