@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Memory Game</title>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css"></link>
-  <link rel="stylesheet" type="text/css" href="css/main.css"></link>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
 
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/underscore.min.js"></script>
-  <script type="text/javascript" src="js/backbone.min.js"></script>
-  <script type="text/javascript" src="js/header"></script>
-  <script type="text/javascript" src="js/models/CardModel.js"></script>
-  <script type="text/javascript" src="js/collections/CardSetCollection.js"></script>
-  <script type="text/javascript" src="js/models/GameModel.js"></script>
-  <script type="text/javascript" src="js/views/CardView.js"></script>
-  <script type="text/javascript" src="js/views/GameBoardView.js"></script>
-  <script type="text/javascript" src="js/init.js"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
 
-<body>
-  <div id="main">
-    <h1 class="heading">Memory</h1>
-    <h2 class="intro">Match the beers!</h2>
-    <ul id="controls">
-      <li id="restart"><a href="#">Restart</a></li>
-      <li id="help"><a href="#">Help</a></li>
-    </ul>
-    <div id="appContent"></div>
-  </div>
+  </head>
 
-</body>
+  <body>
+
+    <div id="main">
+      <h1 class="heading">Memory</h1>
+      <h2 class="intro">Match the beers!</h2>
+      <ul id="controls">
+        <li id="restart"><a href="#">Restart</a></li>
+        <li id="help"><a href="#">Help</a></li>
+      </ul>
+      <div id="appContent"></div>
+    </div>
+
+    <script type="text/javascript" data-main="js/main" src="js/lib/require.js"></script>
+
+  </body>
+
 </html>

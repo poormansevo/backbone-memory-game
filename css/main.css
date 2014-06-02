@@ -9,23 +9,6 @@ header {
   height 100px;
 }
 
-.heading {
-  margin-top: 0;
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.intro {
-  font-size: 16px;
-  font-weight: 200;
-}
-
-#controls {
-  text-align: right;
-  padding: 10px;
-  margin: 0;
-}
-
 li {
   display: inline;
   padding: 0 10px 0 10px;
@@ -51,6 +34,23 @@ a, a:visited, a:hover, a:active {
 #main {
     width: 500px;
     margin: 0 auto;
+}
+
+.heading {
+  margin-top: 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+#controls {
+  text-align: right;
+  padding: 10px;
+  margin: 0;
 }
 
 .board {
