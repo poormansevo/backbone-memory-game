@@ -1,3 +1,0 @@
-MG = {};
-
-MG.vent = _.extend({}, Backbone.Events);
