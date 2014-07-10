@@ -5,15 +5,9 @@ The memory card game implemented with BackboneJS.
 
 I put this app together on a snowed in weekend. There are still possible issues and improvements.
 
-**App has been updated to incorporate require.js. Still need to utilize more of it's features**
+App has been updated to incorporate require.js. Still need to utilize more of it's features
 
 Demo available at http://poormansevo.github.io/backbone-memory-game/
-
-<h2> Building </h2>
-Build with a simple 'grunt' command at command line.
-```
-$ grunt
-```
 
 <h2> Notes </h2>
 
