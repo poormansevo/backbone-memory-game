@@ -5,7 +5,7 @@ var paths = {
     'underscore': 'lib/underscore.min',
     'backbone': 'lib/backbone.min',
 
-    //'Header': 'app/header',
+    'Header': 'app/header',
 
     // Collections
     'CardSetCollection': 'app/collections/CardSetCollection',
@@ -15,12 +15,8 @@ var paths = {
     'GameModel': 'app/models/GameModel',
 
     // Views
-    'CardView': 'app/views/CardView',
-    'GameBoardView': 'app/views/GameBoardView'
-
-    // Etc.
-    //'Init': 'app/init',
-    //'Header': 'app/header'
+    'GameBoardView': 'app/views/GameBoardView',
+    'CardView': 'app/views/CardView'
 
 };
 
@@ -41,11 +37,13 @@ require.config({
     }
 });
 
-
-//requirejs(['jquery', 'underscore', 'Header', 'GameBoardView', 'CardSetCollection', 'GameModel', 'CardModel'], function ($, _, Header, GameBoardView, CardSetCollection, GameModel, CardModel) {
-requirejs(['jquery', 'underscore', 'CardView', 'GameBoardView', 'CardSetCollection', 'GameModel', 'CardModel'], function ($, _, CardView, GameBoardView, CardSetCollection, GameModel, CardModel) {
+requirejs(['jquery', 'underscore', 'backbone', 'GameBoardView', 'CardView', 'CardSetCollection', 'GameModel', 'CardModel'], function ($, _, backbone, GameBoardView, CardView, CardSetCollection, GameModel, CardModel) {
     
     $(document).ready(function() {
+
+        $("#help").click(function() {
+            // open lightbox with help info
+        });
     
         function startGame () {
     
