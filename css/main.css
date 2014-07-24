@@ -1,4 +1,5 @@
 /* Copyright (C) 2014 Steven Richardson steven.richardson25@gmail.com */
+@import url("normalize.css");
 body {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   color: #595959;
@@ -93,11 +94,11 @@ a, a:visited, a:hover, a:active {
     -moz-transform: rotateX(0deg) rotateY(0deg);
     -moz-transform-style: preserve-3d;
     -moz-backface-visibility: hidden;
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .card.flip .front {
@@ -123,11 +124,11 @@ a, a:visited, a:hover, a:active {
     -moz-transform: rotateY(-180deg);
     -moz-transform-style: preserve-3d;
     -moz-backface-visibility: hidden;
-    -o-transition: all .4s ease-in-out;
-    -ms-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .card.flip .back {
