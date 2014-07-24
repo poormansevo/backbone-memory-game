@@ -1,5 +1,5 @@
 var paths = {
-
+    // Copyright (C) 2014 Steven Richardson steven.richardson25@gmail.com
     // Dependencies
     'jquery': 'lib/jquery.min',
     'underscore': 'lib/underscore.min',
