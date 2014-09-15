@@ -7,6 +7,8 @@ I put this app together on a snowed in weekend. There are still possible issues 
 
 App has been updated to incorporate require.js. Still need to utilize more of it's features
 
+Give it a try at http://memory.poormansevo.com
+
 <br />
 <br />
 
